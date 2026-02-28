@@ -142,16 +142,17 @@ export const recentEvents: SystemEvent[] = [
 // Sidebar navigation items
 export interface NavItem {
   label: string
+  href: string
   icon: "layout-dashboard" | "monitor" | "bar-chart-3" | "shield-alert" | "settings" | "users" | "database"
   active?: boolean
 }
 
 export const navItems: NavItem[] = [
-  { label: "Dashboard", icon: "layout-dashboard", active: true },
-  { label: "Monitoreo", icon: "monitor" },
-  { label: "Analiticas", icon: "bar-chart-3" },
-  { label: "Usuarios", icon: "users" },
-  { label: "Base de Datos", icon: "database" },
-  { label: "Alertas", icon: "shield-alert" },
-  { label: "Configuracion", icon: "settings" },
+  { label: "Dashboard", href: "/", icon: "layout-dashboard", active: true },
+  { label: "Monitoreo", href: "/monitoreo", icon: "monitor" },
+  { label: "Analiticas", href: "/analiticas", icon: "bar-chart-3" },
+  { label: "Usuarios", href: "/usuarios", icon: "users" },
+  { label: "Base de Datos", href: "/base-de-datos", icon: "database" },
+  { label: "Alertas", href: "/alertas", icon: "shield-alert" },
+  { label: "Configuracion", href: "/configuracion", icon: "settings" },
 ]

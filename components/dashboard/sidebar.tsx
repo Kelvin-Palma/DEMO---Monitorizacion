@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import {
   LayoutDashboard,
   Monitor,
@@ -25,6 +26,7 @@ const iconMap = {
 } as const
 
 export function DashboardSidebar() {
+  const pathname = usePathname()
   return (
     <aside className="hidden lg:flex flex-col w-64 bg-sidebar border-r border-sidebar-border">
       {/* Logo */}
@@ -46,13 +48,14 @@ export function DashboardSidebar() {
         <ul className="flex flex-col gap-1" role="list">
           {navItems.map((item) => {
             const Icon = iconMap[item.icon]
+            const isActive = pathname === item.href
             return (
               <li key={item.label}>
                 <Link
-                  href="#"
+                  href={item.href}
                   className={cn(
                     "flex items-center gap-3 rounded-lg px-3 py-2 text-sm transition-colors",
-                    item.active
+                    isActive
                       ? "bg-sidebar-accent text-sidebar-primary"
                       : "text-sidebar-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
                   )}
