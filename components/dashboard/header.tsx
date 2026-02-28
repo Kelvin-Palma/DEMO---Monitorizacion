@@ -49,7 +49,7 @@ export function DashboardHeader({ onToggleMobile }: DashboardHeaderProps) {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-success opacity-75" />
             <span className="relative inline-flex rounded-full h-2 w-2 bg-success" />
           </span>
-          <span className="text-xs font-medium text-foreground">Sistema Operativo</span>
+          <span className="text-xs font-medium text-foreground">En produccion</span>
         </div>
       </div>
     </header>
