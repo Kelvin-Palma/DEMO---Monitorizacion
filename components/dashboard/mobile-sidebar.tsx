@@ -101,7 +101,7 @@ export function MobileSidebar({ open, onClose }: MobileSidebarProps) {
             </div>
             <div>
               <p className="text-sm font-medium text-sidebar-foreground">Admin</p>
-              <p className="text-xs text-muted-foreground">admin@uni.edu.mx</p>
+              <p className="text-xs text-muted-foreground">admin@usc.edu.co</p>
             </div>
           </div>
         </div>
