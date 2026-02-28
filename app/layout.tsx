@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'UniMonitor - Dashboard de Monitoreo',
-  description: 'Dashboard de monitoreo en tiempo real para plataforma universitaria',
+  title: 'UniMonitor - Monitoreo en tiempo real',
+  description: 'Aplicacion web de monitoreo en tiempo real para plataforma universitaria',
   generator: 'v0.app',
   icons: {
     icon: [
