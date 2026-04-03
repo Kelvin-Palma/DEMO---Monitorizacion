@@ -101,7 +101,7 @@ You can find it in: `lib/mock-data.ts`.
 ## Screenshots
 
 ![Dashboard](public/dashboard.png)
-![Mobile Dashboard](public/dashboardmobile.png)
+![Mobile Dashboard](public/dashboardMobile.png)
 
 ## Roadmap (Ideas)
 
