@@ -8,7 +8,7 @@ Check out the live demo at [Live Demo](https://demomonitorizacion.vercel.app/)
 
 ## Screenshots
 
-![Dashboard](docs/dashboard.png)
+![Dashboard](public/dashboard.png)
 
 ## Tech Stack
 - List your technologies here
