@@ -103,7 +103,9 @@ You can find it in: `lib/mock-data.ts`.
 ![Dashboard](public/dashboard.png)
 
 ### Mobile
-![Mobile Dashboard](public/dashboardMobile.png){: width="50%" }
+<p align="center">
+  <img src="public/dashboardMobile.png" alt="Mobile Dashboard" style="width:100%;max-width:320px;height:auto;" />
+</p>
 
 ## Roadmap (Ideas)
 
