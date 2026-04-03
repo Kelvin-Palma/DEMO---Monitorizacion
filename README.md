@@ -104,7 +104,9 @@ You can find it in: `lib/mock-data.ts`.
 
 ### Mobile
 <p align="center">
-  <img src="public/dashboardMobile.png" alt="Mobile Dashboard" style="width:100%;max-width:320px;height:auto;" />
+  <img src="public/dashboardMobile.png"
+       alt="Mobile Dashboard"
+       style="width:100%;max-width:320px;height:auto;" />
 </p>
 
 ## Roadmap (Ideas)
